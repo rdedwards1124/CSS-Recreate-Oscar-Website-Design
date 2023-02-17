@@ -1,0 +1,44 @@
+
+* {
+    outline: 2px solid red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    background: black;
+    color: white;
+    text-align: right;
+    padding: 20px;
+    /* height: 10vh; */
+}
+
+.top-nav li {
+    display: inline;
+    padding: 10px;
+}
+
+.main-nav li {
+    display: inline;
+    text-align: center;
+}
+
+.main-nav {
+    display: flex;
+    text-align: center;
+}
+
+.main-nav nav {
+    display: inline;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
